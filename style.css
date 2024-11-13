@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #444;
+    padding: 0.5rem;
+}
+.skill-set {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.skill span {
+    font-size: 1.2em;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.skill-bar div {
+    height: 25px;
+    border-radius: 25px;
+}
+
+.core-java {
+    width: 90%; /* Adjust width for skill level */
+    background-color: #4285f4;
+}
+
+.sql {
+    width: 80%;
+    background-color: #34a853;
+}
+
+.spring-boot {
+    width: 70%;
+    background-color: #fbbc05;
+}
+
+.html5 {
+    width: 85%;
+    background-color: #ea4335;
+}
+
+.css3 {
+    width: 75%;
+    background-color: #0f9d58;
+}
+
+.javascript {
+    width: 65%;
+    background-color: #ff9800;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.project {
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #353434;
+    color: #e9e4e4;
+    position: fixed;
+    bottom: 0;
+    
+    width: 100%;
+}
+
+.normal-size {
+    width: 300px;
+    height: auto;
+}
+.skill-bar div {
+    height: 25px;
+    border-radius: 25px;
+    width: 0; /* Start with 0 width for animation */
+}
